@@ -1,4 +1,4 @@
-package com.example.homework.lab2
+package com.example.homework
 
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
@@ -188,3 +188,4 @@ fun main() {
     smartHome.turnOffAllDevices()
     println("Devices currently on after turning all off: ${smartHome.deviceTurnOnCount}")
 }
+
